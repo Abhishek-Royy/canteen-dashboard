@@ -6,6 +6,7 @@ import {
   UserGroupIcon,
   Cog6ToothIcon,
   QuestionMarkCircleIcon,
+  QueueListIcon,
 } from '@heroicons/react/24/outline'
 import { Link, useLocation } from 'react-router-dom'
 
@@ -14,6 +15,7 @@ const navigation = [
   { name: 'Food Items', href: '/food-items', icon: ChartBarIcon },
   { name: 'Waste Management', href: '/waste-management', icon: TrashIcon },
   { name: 'Staff', href: '/staff', icon: UserGroupIcon },
+  { name: 'Queue Management', href: '/queue-management', icon: QueueListIcon },
 ]
 
 const secondaryNavigation = [

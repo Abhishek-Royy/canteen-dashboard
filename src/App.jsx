@@ -4,6 +4,7 @@ import Dashboard from './components/Dashboard'
 import FoodItems from './pages/FoodItems'
 import WasteManagement from './pages/WasteManagement'
 import Staff from './pages/Staff'
+import QueueManagement from './pages/QueueManagement'
 import Sidebar from './components/Sidebar'
 import Header from './components/Header'
 
@@ -23,6 +24,7 @@ function App() {
                 <Route path="/food-items" element={<FoodItems />} />
                 <Route path="/waste-management" element={<WasteManagement />} />
                 <Route path="/staff" element={<Staff />} />
+                <Route path="/queue-management" element={<QueueManagement />} />
               </Routes>
             </div>
           </main>
